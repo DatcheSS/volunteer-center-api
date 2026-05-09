@@ -266,4 +266,4 @@ app.MapPost("/api/volunteer-beneficiaries", async (VolunteerCenterContext db, Vo
 .WithName("CreateVolunteerBeneficiary")
 .WithSummary("Назначить волонтёра бенефициару");
 
-app.Run("http://localhost:1984");
+app.Run();
